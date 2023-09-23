@@ -1,111 +1,98 @@
-.screen{
-    min-height: 100vh;
+.screen {
+  min-height: 100vh;
 }
 
-.bg-red{
-    background-color: red;
+.bg-red {
+  background-color: red;
 }
 
-.mx-auto{
-    margin-left: auto;
-    margin-right: auto;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-.flex{
-    display: flex;
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 420px) {
+  .flex {
+    flex-direction: column;
+  }
+  .navbar {
     flex-direction: row;
-    /* align-items: center; */
-/* flex-wrap: wrap; */
-    /* flex-wrap: wrap; */
-    /* align-items: center;
-    justify-content: center; */
-}
-@media (max-width:420px) {
-.flex{
-    flex-direction: column;
-   
-}
-.navbar{
-     flex-direction: row;
     flex-wrap: wrap;
-}
+  }
 
-nav .font-bold{
+  nav .font-bold {
     font-size: 1.2em;
-}
-nav li button{
+  }
+  nav li button {
     display: none;
-}
-.topright .gymimg{
-display: none;
-/* width: 289px; */
-}
-.dumbellimg{
-    /* display: none; */
+  }
+  .topright .gymimg {
+    display: none;
+  }
 }
 
+.items-center {
+  align-items: center;
 }
 
-.items-center{
-    align-items: center;
+.justify-between {
+  justify-content: space-between;
 }
 
-.justify-between{
-    justify-content: space-between;
+.justify-center {
+  justify-content: center;
 }
 
-.justify-center{
-    justify-content: center;
+.flex-col {
+  flex-direction: column;
 }
 
-.flex-col{
-    flex-direction: column;
+.font-bold {
+  font-weight: bolder;
+  font-size: 2rem;
 }
 
-.font-bold{
-    font-weight: bolder;
-    font-size: 2rem;
+.my-1 {
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 
-.my-1{
-    margin-top: 13px;
-    margin-bottom: 13px;
+.my-2 {
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
 
-.my-2{
-    margin-top: 26px;
-    margin-bottom: 26px;
+.px-2 {
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
-.px-2{
-    padding-left: 13px;
-    padding-right: 13px;
+.text-blue {
+  color: rgb(227 74 56);
 }
 
-.text-blue{
-    color: rgb(227 74 56);;
+.btn {
+  padding: 7px 12px;
+  border: none;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(227 74 56);
+}
+.btn:hover {
+  background-color: rgb(185, 54, 40);
 }
 
-.btn{
-    padding:7px 12px;
-    /* border: 2px solid white; */
-    border: none;
-    margin: 5px;
-    border-radius: 6px;
-    font-size: 18px;
-    cursor: pointer;
-    color: white;
-    background-color: rgb(227 74 56);
-}
-.btn:hover{
-    background-color:rgb(185, 54, 40);
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
-.overflow-x-hidden{
-    overflow-x: hidden;
-}
-
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
