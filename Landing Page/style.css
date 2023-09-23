@@ -44,7 +44,7 @@ body {
 
 .dumbellimg {
   width: 80%;
-  mix-blend-mode: color-burn;
+  filter: drop-shadow(3px 3px 7px rgb(96, 96, 96));
 }
 
 .topright .gymimg {
