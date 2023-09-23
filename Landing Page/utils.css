@@ -15,6 +15,8 @@
 .flex{
     display: flex;
     flex-direction: row;
+    /* align-items: center; */
+/* flex-wrap: wrap; */
     /* flex-wrap: wrap; */
     /* align-items: center;
     justify-content: center; */
@@ -22,21 +24,25 @@
 @media (max-width:420px) {
 .flex{
     flex-direction: column;
-    /* flex-wrap: wrap; */
+   
 }
 .navbar{
-     flex-direction: column;
+     flex-direction: row;
     flex-wrap: wrap;
 }
-nav ul li{
-    /* display: none; */
+
+nav .font-bold{
+    font-size: 1.2em;
+}
+nav li button{
+    display: none;
 }
 .topright .gymimg{
-    /* width: 250px;
-    margin: auto;
-height: 210px; */
 display: none;
 /* width: 289px; */
+}
+.dumbellimg{
+    /* display: none; */
 }
 
 }

@@ -46,53 +46,35 @@ body{
 .section1 h1{
     color: #37110d;
     /* font-size: 2rem; */
-    font-size: clamp(2rem, 4vw, 4rem);
+    font-size: clamp(1.5rem, 3vw, 3.5rem);
     /* mix-blend-mode: color-burn; */
 }
 .section1 p{
   font-size: clamp(1.0rem, 3vw, 1.5rem);
  padding: 5px 0;
  margin: 10px 0;
+ text-align: justify;
+ text-align-last: center;
+
 }
 
-.logo{
+/* .logo{
     font-size: 1.3rem;
-}
+} */
 
 .dumbellimg{
-    width: 289px;
+    width: 80%;
     mix-blend-mode: color-burn;
+/* filter: drop-shadow(5px 5px 5px black); */
    
    
 }
-.bgImg{
-    /* overflow-x: hidden; */
-    /* content: ""; */
-    /* background: url('gym.png') no-repeat center/cover;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    opacity: 0.3;
-    z-index: -1; */
 
-}
-.bgImg .gymimgbg{
-    width: 100%;
-    position:absolute;
-    opacity: 0.15;
-    top: 0;
-    /* right: -18%; */
-  z-index: -1;
-    
-}
 .topright .gymimg{
-    width: 400px;
+    width: 100%;
     margin: auto;
 height: auto;
-/* width: 289px; */
-    /* mix-blend-mode: color-burn; */
-
+filter: drop-shadow(5px 5px 5px black);
    
 }
 
@@ -107,17 +89,19 @@ height: auto;
 
 .section2 p{
     /* padding: 0 8vw; */
-    text-align: center;
+ text-align: justify;
+
     font-size: clamp(1.0rem, 2vw, 1.5rem);
  padding: 5px 0;
  margin: 10px 0;
+ text-align-last: center;
  /* margin: 10px 0; */
 }
 
 .box{
-    padding: 8px 0;
+    padding: 8px 10px;
     margin: 12px 22px;
-    min-width: 20vw;
+    min-width: 25vw;
     border: 2px solid rgb(120, 54, 16);
     border-radius: 8px;
     text-align: center;
@@ -131,15 +115,19 @@ height: auto;
 .highlighted{
     font-size: 1.2rem;
     font-weight: bolder;
+    text-align: center;
 }
 
 .box ul{
     list-style-type: none;
+    /* text-align: justify; */
+    /* padding-left: 10px; */
 }
 
 .box ul li{
    margin: 12px 2px;
 }
+
 
 .plantable{
     display: flex;
@@ -178,6 +166,7 @@ height: auto;
 footer{
     padding: 23px;
     text-align: center;
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
 }
 .buttons{
     display: flex;
