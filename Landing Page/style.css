@@ -43,12 +43,12 @@ body {
 }
 
 .dumbellimg {
-  width: 80%;
+  width: 90%;
   filter: drop-shadow(3px 3px 7px rgb(96, 96, 96));
 }
 
 .topright .gymimg {
-  width: 100%;
+  width: 80%;
   margin: auto;
   height: auto;
   filter: drop-shadow(5px 5px 5px black);
