@@ -1,6 +1,6 @@
-Certainly, here's a shorter GitHub README for your sample landing page:
+# Author
 
----
+`Naman Khandelwal`
 
 # Sample Landing Page
 
@@ -26,9 +26,3 @@ A responsive and customizable landing page template.
 ## Contributing
 
 Feel free to fork and contribute. Create a pull request with your changes.
-
-## License
-
-This project is under the MIT License. See [LICENSE](LICENSE).
-
-Enjoy using the Sample Landing Page template for your projects!
