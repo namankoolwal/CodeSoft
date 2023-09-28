@@ -6,7 +6,7 @@
 
 This is a basic web-based calculator created using HTML, CSS, and JavaScript.
 
-![Calculator Screenshot](https://github.com/namankoolwal/CodeSoft/assets/104143943/5f50217c-4bc6-4e64-a70b-0eb768ffeadf)
+![Calculator Screenshot](https://github.com/namankoolwal/CodeSoft/assets/104143943/291a0ca4-bc80-4fe7-9522-94723fad4361)
 
 ## Features
 
