@@ -1,28 +1,27 @@
-<!-- NAMAN KHANDELWAL -->
-<!-- @namankoolwal -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A Simple Standard Calculator">
+    <meta name="author" content="Naman Khandelwal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="calculator">
     <table class="calc">
+        <caption class="h1">CALCULATOR</caption>
         <tr>
             <td colspan="3" class="outputtext">
                 <input class="display-box" type="text" id="result" disabled />
             </td>
-            <!-- clearscrean() function will clear all the values -->
             <td>
-                <input type="button" class="button" value="c" onclick="clearscreen()" 
-                style="background-color:#fb0066"/>
+                <input type="button" class="button" value="c" onclick="clearscreen()"  style="background-color: #fb0047e1"/>
             </td>
         </tr>
         <tr>
-            <!-- display() function will display the value of clicked button -->
             <td>
                 <input class="button" type="button" value="1" onclick="display('1')" />
             </td>
@@ -47,7 +46,7 @@
                 <input class="button" type="button" value="6" onclick="display('6')" />
             </td>
             <td>
-                <input class="button" type="button" value="-" onclick="display('-')" />
+                <input class="button" type="button" value="+" onclick="display('+')" />
             </td>
         </tr>
         <tr>
@@ -61,7 +60,7 @@
                 <input class="button" type="button" value="9" onclick="display('9')" />
             </td>
             <td>
-                <input class="button" type="button" value="+" onclick="display('+')" />
+                <input class="button" type="button" value="-" onclick="display('-')" />
             </td>
         </tr>
         <tr>
@@ -74,13 +73,13 @@
             <td>
                 <input class="button" type="button" value="*" onclick="display('*')" />
             </td>
-            <!-- calculate() function evaluate the mathematical expression -->
             <td>
                 <input class="button" type="button" value="=" onclick="calculate()" 
-                style="background-color: #fb0066" />
+                style="background-color: #fb0047e1" />
             </td>
         </tr>
     </table>
+</div>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
