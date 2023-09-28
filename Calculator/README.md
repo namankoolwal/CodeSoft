@@ -6,8 +6,7 @@
 
 This is a basic web-based calculator created using HTML, CSS, and JavaScript.
 
-![Calculator Screenshot](![image](https://github.com/namankoolwal/CodeSoft/assets/104143943/5f50217c-4bc6-4e64-a70b-0eb768ffeadf)
-)
+![Calculator Screenshot](https://github.com/namankoolwal/CodeSoft/assets/104143943/5f50217c-4bc6-4e64-a70b-0eb768ffeadf)
 
 ## Features
 
@@ -17,7 +16,7 @@ This is a basic web-based calculator created using HTML, CSS, and JavaScript.
 
 ## Demo
 
-You can try out the live calculator here: [Calculator Demo](https://your-calculator-url.com)
+You can try out the live calculator here: [Calculator Demo](https://calculator-nk.vercel.app/)
 
 
 ## How It Works
