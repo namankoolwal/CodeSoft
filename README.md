@@ -20,7 +20,7 @@ A personalized portfolio website to showcase your skills and projects.
 
 A simple web-based calculator for basic arithmetic operations.
 
-**Demo**: [Calculator](https://your-calculator-url.com)
+**Demo**: [Calculator](https://calculator-nk.vercel.app/)
 
 ## Getting Started
 
