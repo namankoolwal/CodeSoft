@@ -1,12 +1,13 @@
 ## Author
 
-- **Naman Khandelwal**
+`Naman Khandelwal`
 
 # Simple Calculator
 
-This is a basic web-based calculator created by **Naman Khandelwal** using HTML, CSS, and JavaScript.
+This is a basic web-based calculator created using HTML, CSS, and JavaScript.
 
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](![image](https://github.com/namankoolwal/CodeSoft/assets/104143943/5f50217c-4bc6-4e64-a70b-0eb768ffeadf)
+)
 
 ## Features
 
