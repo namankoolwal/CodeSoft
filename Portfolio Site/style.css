@@ -30,7 +30,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: transparent;
+  background:rgb(29, 34, 44);
   position: fixed;
   top: 0;
   transition: 0.3s;
