@@ -1,34 +1,36 @@
-// header scrolling effect
-$(window).on("scroll", function () {
-  if ($(window).scrollTop()) {
-    $("header").addClass("nav-show");
+// Header scrolling effect
+window.addEventListener("scroll", function () {
+  const header = document.querySelector("header");
+  if (window.scrollY > 0) {
+    header.classList.add("nav-show");
   } else {
-    $("header").removeClass("nav-show");
+    header.classList.remove("nav-show");
   }
 });
 
-//hamburger
+// Hamburger menu
 const navSlide = () => {
   const hamburger = document.querySelector(".hamburger");
   const navbar = document.querySelector(".nav-bar");
   const navLinks = document.querySelectorAll(".nav-bar li");
 
-  hamburger.onclick = () => {
+  hamburger.addEventListener("click", () => {
     navbar.classList.toggle("nav-active");
 
-    //Animation links
+    // Animation links
     navLinks.forEach((link, index) => {
       if (link.style.animation) {
         link.style.animation = "";
       } else {
         link.style.animation = `navLinkFade 0.5s ease forwards ${
-          index / 7 + 1
+          (index / 7 + 1) * 0.2
         }s`;
       }
     });
-    //hamburger animation
+
+    // Hamburger animation
     hamburger.classList.toggle("toggle");
-  };
+  });
 };
 
 window.onload = () => navSlide();
