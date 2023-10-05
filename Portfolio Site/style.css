@@ -149,6 +149,7 @@ h3 {
 .social-media a:hover {
   color: var(--main-decor-color);
   text-shadow: 0 0 50px var(--main-decor-color);
+  transform: translateY(8px);
 }
 /* Project */
 #project, #skills {
