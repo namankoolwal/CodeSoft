@@ -21,7 +21,7 @@ A simple web-based calculator for basic arithmetic operations.
 A personalized portfolio website to showcase your skills and projects.
 
 **Demo**: [Personal Portfolio](https://portfolio-namank.vercel.app/)
-<a target="_blank" href="https://portfolio-namank.vercel.app/">personal portfolio</a>
+
 ## Getting Started
 
 1. Clone the repository.
