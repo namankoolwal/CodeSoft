@@ -10,18 +10,18 @@ A responsive and customizable landing page template for web projects.
 
 **Demo**: [Sample Landing Page](https://landingpage-gym-nk.vercel.app/)
 
-### 2. Personal Portfolio
-
-A personalized portfolio website to showcase your skills and projects.
-
-**Demo**: [Personal Portfolio](https://portfolio-namank.vercel.app/)
-
-### 3. Calculator
+### 2. Calculator
 
 A simple web-based calculator for basic arithmetic operations.
 
 **Demo**: [Calculator](https://calculator-nk.vercel.app/)
 
+### 3. Personal Portfolio
+
+A personalized portfolio website to showcase your skills and projects.
+
+**Demo**: [Personal Portfolio](https://portfolio-namank.vercel.app/)
+<a target="_blank" href="https://portfolio-namank.vercel.app/">personal portfolio</a>
 ## Getting Started
 
 1. Clone the repository.
